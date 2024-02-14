@@ -1,1 +1,2 @@
-# mini_python_projeleri
+# MINI PYTHON PROJELERI
+Merhabalar, Linux ve Windows işletim sistemlerinde çalışabilecek, Python programlama dili ile yazılmış yazılımları bu dosya çatısı altında sunmaya karar verdim. Amaç; Algoritma okuryazarlığını geliştirmek isteyen yazılımcı arkadaşlara farklı perspektifler katabilmek, kısa kodlarla büyük işlerin yapıldığını gösterebilmektir. Ingilizce versiyonu yakın bir zamanda ortaya çıkacaktır, teşekkürler.
