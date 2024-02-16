@@ -2,6 +2,11 @@
 # Hata yakalama metotlari
 
 import math
+import os
+import time
+
+os.system("clear")
+
 while True:
     try:
         sayi=int(input("Lutfen bir sayi girin: "))
@@ -16,9 +21,10 @@ while True:
         print("Lutfen sayi girmeye calisin")
         continue
     
-    # Programi kullanan kisi CTRL + C kombinasyonu ile programdan cikmaya calisirsa asagidaki yaziyla 
+    # Programi kullanan kisi CTRL+C kombinasyonu ile programdan cikmaya calisirsa asagidaki yaziyla 
     # karsilasacak ve sonsuz donguden cikis yaparak program kapatilacak.
     except KeyboardInterrupt:
         print("\nProgramdan cikis yaptiniz!")
+        time.sleep(4)
+        os.system("clear")
         break
-    
