@@ -11,16 +11,13 @@ while True:
         if sayi == 0:
             break
     
-    # Programi kullanan kisi yanlislikla sayi yerine harf girmeye calisirsa, program asagidaki uyariyi
-    # yapacak ve calismaya devam edecek.
+    # Programi kullanan kisi yanlislikla sayi yerine harf girmeye calisirsa, program asagidaki uyariyi yapacak ve calismaya devam edecek.
     except ValueError:
         print("Lutfen sayi girmeye calisin")
         continue
     
-    # Programi kullanan kisi CTRL + C kombinasyonu ile
-    # programdan cikmaya calisirsa asagidaki yaziyla 
-    # karsilasacak ve sonsuz donguden cikis yaparak
-    # program kapatilacak.
+    # Programi kullanan kisi CTRL + C kombinasyonu ile programdan cikmaya calisirsa asagidaki yaziyla 
+    # karsilasacak ve sonsuz donguden cikis yaparak program kapatilacak.
     except KeyboardInterrupt:
         print("\nProgramdan cikis yaptiniz!")
         break
