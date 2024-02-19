@@ -1,4 +1,4 @@
-# Netdiscover bir ag kesif aracidir. Modeme bagli olan aglari taramaya baslar. Ve bu aglara bagli olan cihazlari kesfeder.
+# Netdiscover bir ag kesif aracidir. IP araligina bagli olan ag adreslerini taramaya baslar. Ve bu adreslere kayitli olan cihazlari kesfeder.
 # Netdiscover; Kali Linux isletim sisteminde bulunur. Fakat eger Ubuntu gibi isletim sistemlerinde calistiracaksaniz, araci kurmaniz onerilir.
 # Araci kurmadan yazilimi calistirirsaniz, program hata verecek ve islem durdurulacaktir.
 
